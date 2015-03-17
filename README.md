@@ -1,7 +1,5 @@
 ## sam's dotfiles 
 
-## dotfiles
-
 ## install
 
 Run this:
