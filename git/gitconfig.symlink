@@ -26,3 +26,5 @@
         keepBackup = false
 [difftool]
         prompt = false
+[core]
+	editor = /usr/bin/vim
