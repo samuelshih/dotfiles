@@ -1,6 +1,6 @@
 ## sam's dotfiles 
 
-## install
+## Install
 
 Run this:
 
@@ -21,11 +21,11 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
-## dependencies
+## Dependencies
 
-*[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-## topical
+## Topical
 
 Everything's built around topic areas. If you're adding a new area to your
 forked dotfiles — say, "Java" — you can simply add a `java` directory and put
@@ -33,7 +33,7 @@ files in there. Anything with an extension of `.zsh` will get automatically
 included into your shell. Anything with an extension of `.symlink` will get
 symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
-## components
+## Components
 
 There's a few special files in the hierarchy.
 
@@ -50,6 +50,6 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
-## thanks
+## Thanks
 
 This is based from Holman's dotfiles(http://github.com/holman/dotfiles)'
