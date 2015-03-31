@@ -52,4 +52,4 @@ There's a few special files in the hierarchy.
 
 ## Thanks
 
-This is based from Holman's dotfiles(http://github.com/holman/dotfiles)'
+This is based from Holman's [dotfiles](http://github.com/holman/dotfiles)
