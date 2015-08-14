@@ -37,6 +37,7 @@ symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
 There's a few special files in the hierarchy.
 
+- **osx/**: Will need to restart to make changes effective
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
