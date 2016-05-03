@@ -5,4 +5,4 @@ alias vs="vagrant suspend"
 alias swat="ssh -Y sshih1@lab.cs.swarthmore.edu"
 alias startpy="source venv/bin/activate"
 alias killpy="deactivate"
-
+alias block="sudo vim /etc/hosts/"
