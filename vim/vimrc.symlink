@@ -1,4 +1,23 @@
+set background=dark
+set nocompatible
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" Vundle
+call vundle#begin()
+Plugin 'VundleVim/vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'jreybert/vimagit'
+Plugin 'scrooloose/nerdtree'
+call vundle#end()
+
+colorscheme hybrid
+
 " Turn on syntax highlighting
+syntax enable
 syntax on
 
 " Wrap gitcommit file types at the appropriate length
